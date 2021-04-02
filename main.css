@@ -1,9 +1,36 @@
 body{
     font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+   
+   
     
 }
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+ background-color: #a4c0f4;
+  display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
 h1{
     text-align: center;
+    
+}
+
+h2{
+    font-weight: bold;
+}
+
+p{
+   text-align: left;
+    width: 800px;
+    font-size: 17px;
+    line-height: 150%;
 }
 .container {
   position: relative;
@@ -21,27 +48,49 @@ h1{
     text-shadow: 1px 1px 5px black;
 
 }
+/*#menu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color:darkseagreen
+}
 
+#menu ul li{
+    display: inline-block;
+    padding: 0 5em;
+    
+}
 
-ul{
+#menu ul li a{
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+*/
+
+ #menu ul{
     padding: 0em;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: silver;
+    background-color:#a4c0f4;
     justify-content: center;
    
     
 }
 
-ul li{
+ #menu ul li{
     list-style: none;
     display: inline-block;
     padding: 0 5em;
     
 }
 
-ul li a{
+#menu ul li a{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -51,7 +100,7 @@ ul li a{
     position: relative;
 }
 
-ul li a:before{
+ #menu ul li a:before{
     content:'';
     position: absolute;
     top:0;
@@ -65,7 +114,7 @@ ul li a:before{
 }
 
 
-ul li a:after{
+ #menu ul li a:after{
     content:'';
     position: absolute;
     bottom: 0;
@@ -78,8 +127,7 @@ ul li a:after{
     transition: all 0.5s;
     
 }
-
-ul li a:hover:before, ul li a:hover:after{
+#menu ul li a:hover:before, #menu ul li a:hover:after{
     transform: scaleX(1);
 }
 
