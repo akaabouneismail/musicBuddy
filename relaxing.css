@@ -1,6 +1,21 @@
 body{
     font-family: "Comfortaa", sans-serif;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400%, 400%;
+
     
+}
+
+footer{
+    font-weight: bold;
+    text-align:center;
+    line-height: 150%;
+}
+
+#intro{
+    font-weight: bold;
+    text-align: center;
+    line-height: 150%;
 }
 h1{
     text-align: center;
