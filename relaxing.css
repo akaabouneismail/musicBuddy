@@ -2,30 +2,31 @@ body{
     font-family: "Comfortaa", sans-serif;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 400%, 400%;
-
+/* setting the format of the body of the page and its background color */
     
 }
 
-footer{
+footer{ /* setting the display of the footer */
     font-weight: bold;
     text-align:center;
     line-height: 150%;
 }
 
-#intro{
+#intro{ /* setting the description message to be displayed in the center, bold and with a certain space between lines */
     font-weight: bold;
     text-align: center;
     line-height: 150%;
 }
-h1{
+h1{ /* displaying the header in center of page */
     text-align: center;
 }
-.container {
+.container { /* title of the website in front of picture */
   position: relative;
   text-align: center;
   color: white;
 }
 
+/* all the following lines of code concern the menu bar, from the display to the animation when the cursor is on the links */
 .centered {
   position: absolute;
   top: 50%;
@@ -37,29 +38,7 @@ h1{
 
 }
 
-/*#menu ul {
-    list-style-type: none;
-    padding: 1em 0;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    background-color:darkseagreen
-}
 
-#menu ul li{
-    display: inline-block;
-    padding: 0 5em;
-    
-}
-
-#menu ul li a{
-    font-weight: bold;
-    color: black;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-*/
 ul{
     padding: 0em;
     margin: 0em;

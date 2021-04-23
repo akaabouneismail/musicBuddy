@@ -1,25 +1,25 @@
-body{
+body{/* setting the format of the body of the page and its background color */
     font-family: "Comfortaa", sans-serif;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 400%, 400%;
 }
-h1{
+h1{/* displaying the header in center of page */
     text-align: center;
 }
 
-footer{
+footer{/* setting the display of the footer */
     font-weight: bold;
     text-align:center;
     line-height: 150%;
 }
 
-#intro{
+#intro{/* setting the description message to be displayed in the center, bold and with a certain space between lines */
     font-weight: bold;
     text-align: center;
     line-height: 150%;
 }
 
-.container {
+.container {/* title of the website in front of picture */
   position: relative;
   text-align: center;
   color: white;
@@ -36,6 +36,8 @@ footer{
 
 }
 
+
+/* all the following lines of code concern the menu bar, from the display to the animation when the cursor is on the links */
 
 ul{
     padding: 0em;

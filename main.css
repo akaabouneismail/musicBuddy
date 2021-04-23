@@ -6,12 +6,15 @@ body{
     
    
    
-    
+    /* setting the format of the body of the page and its background color */
 }
 
-footer{
+footer{/* setting the display of the footer */
    float: right;
 }
+
+/* setting the way the links section on the right side of the page will be displayed */
+
 aside {
   width: 30%;
   padding-left: 15px;
@@ -24,6 +27,7 @@ aside {
     margin-bottom: 1em;
 }
 
+/* setting how the headers are displayed*/
 h1{
     text-align: center;
     
@@ -33,19 +37,22 @@ h2{
     font-weight: bold;
 }
 
-p{
+p{ /*setting how the welcome message will be displayed */
    text-align: left;
     width: 800px;
     font-size: 17px;
     line-height: 150%;
 }
-.container {
+
+.container {/* title of the website in front of picture */
   position: relative;
   text-align: center;
   color: white;
 }
 
-.centered {
+
+/* all the following lines of code concern the menu bar, from the display to the animation when the cursor is on the links */
+.centered { 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,29 +62,7 @@ p{
     text-shadow: 1px 1px 5px black;
 
 }
-/*#menu ul {
-    list-style-type: none;
-    padding: 1em 0;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    background-color:darkseagreen
-}
 
-#menu ul li{
-    display: inline-block;
-    padding: 0 5em;
-    
-}
-
-#menu ul li a{
-    font-weight: bold;
-    color: black;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-*/
 
  #menu ul{
     padding: 0em;
